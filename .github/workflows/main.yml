@@ -14,7 +14,7 @@ jobs:
         with:
           databricks-host: https://dbc-a7fb576a-8a54.cloud.databricks.com
           databricks-token: dapi1f7234b098c20bd755c0c8c4fe9261ea
-          local-notebook-path: /Repos/odl_user_1163627@databrickslabs.com/delta-live-tables-notebooks/sql/Retail Sales
+          local-notebook-path: "/Repos/odl_user_1163627@databrickslabs.com/delta-live-tables-notebooks/sql/Retail Sales"
           # The cluster JSON below is for AWS workspaces. On Azure and GCP, set
           # node_type_id to an appropriate node type, e.g. "Standard_D3_v2" for
           # Azure or "n1-highmem-4" for GCP
